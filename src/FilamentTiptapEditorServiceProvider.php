@@ -19,7 +19,7 @@ class FilamentTiptapEditorServiceProvider extends PluginServiceProvider
 
     public function configurePackage(Package $package): void
     {
-        static::$version = InstalledVersions::getVersion('awcodes/filament-tiptap-editor');
+        static::$version = InstalledVersions::getVersion('kda/filament-tiptap-editor');
 
         $package
             ->name(static::$name)
