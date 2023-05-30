@@ -1,5 +1,5 @@
 {
-    "name": "kda/filament-tiptap-editor",
+    "name": "awcodes/filament-tiptap-editor",
     "type": "package",
     "description": "A Tiptap integration for Filament Admin/Forms.",
     "keywords": [
@@ -61,8 +61,6 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true,
-    "replace": {
-        "awcodes/filament-tiptap-editor":"*"
-    }
+    "prefer-stable": true
+    
 }
