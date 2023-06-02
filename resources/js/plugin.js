@@ -201,7 +201,7 @@ document.addEventListener("alpine:init", () => {
                 setTimeout(() => {
                     editors[this.id].destroy();
                     this.initEditor(this.state);
-                }, 200);
+                }, 1000);
             });
         },
         editor() {
